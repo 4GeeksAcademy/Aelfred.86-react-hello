@@ -5,7 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Card from "./Card.jsx";
-
+import Footer from "./Footer.jsx";
 //create your first component
 const Home = () => {
 	const cardImages = ["https://images.hola.com/imagenes/viajes/20220930218161/salto-angel-venezuela-catarata-mas-alta-mundo/1-145-411/salto-del-angel-canaima-venezuela-t.jpg",
@@ -27,7 +27,7 @@ const Home = () => {
 			</div>
 			
 		</div>
-
+			<Footer/>
 	</>
 	);
 };
